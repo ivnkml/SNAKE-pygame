@@ -122,7 +122,7 @@ def start_inst(start_font1, start_font1_rect):
 
 
 def gameover():
-    #canvas.fill(BLACK)
+    
 
     font_gameover1 = large_font.render('Ende des Spiels', True, GREEN)
     font_gameover2 = medium_font.render("Erneut spielen", True, RED, YELLOW)
@@ -185,7 +185,7 @@ def snake(snakelist, direction):
 
 
 def game_paused():
-    # canvas.fill(BLACK)
+    
     paused_font1 = large_font.render("Pause", True, RED)
     paused_font_rect1 = paused_font1.get_rect()
     paused_font_rect1.center = (WINDOW_WIDTH/2, WINDOW_HEIGHT/2)
